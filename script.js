@@ -3,8 +3,7 @@ const messages = [
      "My Name Is Ramin 👨🏽‍💻",
      "Check Out My Links Below 🔗",
      "Let's Connect! 🚀",
-     "Explore More About Me ⭐",
-     "Don't Forget To Check Out Ramin DSGN 🎨"
+     "Explore More About Me ⭐"
  ];
  
  const messageElement = document.getElementById("dynamic-message");
