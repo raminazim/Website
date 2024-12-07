@@ -77,4 +77,11 @@ body {
          transform: translateY(-10px);
      }
 }
+
+
+.highlight {
+     color: #0000aa;
+     font-weight: bold;
+     text-shadow: 0 0 5px #0000aa;
+}
  

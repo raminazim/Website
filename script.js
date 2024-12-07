@@ -3,7 +3,8 @@ const messages = [
      "My Name Is Ramin 👨🏽‍💻",
      "Check Out My Links Below 🔗",
      "Let's Connect! 🚀",
-     "Explore More About Me ✨"
+     "Explore More About Me ⭐",
+     "Don't Forget To Check Out Ramin DSGN 🎨"
  ];
  
  const messageElement = document.getElementById("dynamic-message");
@@ -11,7 +12,7 @@ const messages = [
  
  function updateMessage() {
      messageIndex = (messageIndex + 1) % messages.length;
-     messageElement.textContent = messages[messageIndex];
+     messageElement.innerHTML = messages[messageIndex];
  }
  
  setInterval(updateMessage, 3000);
