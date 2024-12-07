@@ -1,0 +1,49 @@
+body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+     background: linear-gradient(120deg, #00001c, #000008);
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     color: #fff;
+ }
+ 
+ .portfolio-container {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+ 
+ .portfolio-card {
+     background: rgba(255, 255, 255, 0.1);
+     backdrop-filter: blur(10px);
+     padding: 2rem;
+     border-radius: 20px;
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     width: 300px;
+ }
+ 
+ .portfolio-card h1 {
+     margin: 0;
+     font-size: 2rem;
+ }
+ 
+ .links {
+     margin-top: 1rem;
+ }
+ 
+ .links a {
+     display: block;
+     margin: 0.5rem 0;
+     color: #fff;
+     text-decoration: none;
+     font-weight: bold;
+     transition: color 0.3s ease;
+ }
+ 
+ .links a:hover {
+     color: #ffffff25;
+ }
+ 
