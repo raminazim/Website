@@ -1,4 +1,3 @@
-// Dynamic Message Script
 const messages = [
      "Hey There 👋",
      "My Name Is Ramin 👨🏽‍💻",
@@ -15,6 +14,5 @@ const messages = [
      messageElement.textContent = messages[messageIndex];
  }
  
- // Update the message every 3 seconds
  setInterval(updateMessage, 3000);
  
