@@ -82,6 +82,17 @@ body {
 .highlight {
      color: #ffffff;
      font-weight: bold;
-     text-shadow: 0 0 5px #ffffff;
+     
+
+     animation: pulse 1s ease-in-out infinite;
+}
+
+@keyframes pulse{
+     0%,100%{
+          text-shadow: none;
+     }
+     50%{
+          text-shadow: 0 0 5px #ffffff;
+     }
 }
  
