@@ -1,9 +1,9 @@
 const messages = [
      "Hey There 👋",
-     "My Name Is Ramin 👨🏽‍💻",
-     "Check Out My Links Below 🔗",
-     "Let's Connect! 🚀",
-     "Explore More About Me ⭐"
+     "My Name Is Ramin 👨‍💻",
+     "Check Out My Links Below 👇",
+     "Let's Connect! 🤝",
+
  ];
  
  const messageElement = document.getElementById("dynamic-message");

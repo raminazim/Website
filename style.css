@@ -1,7 +1,7 @@
 body {
      margin: 0;
-     font-family: Arial, sans-serif;
-     background: linear-gradient(135deg, #1c1c1c, #080808);
+     font-family: Helvetica, Arial, sans-serif;
+     background: linear-gradient(135deg, #1c1c1c, #000000);
      display: flex;
      justify-content: center;
      align-items: center;
@@ -17,14 +17,19 @@ body {
  }
 
 .portfolio-card {
-     background: rgba(255, 255, 255, 0.1);
-     backdrop-filter: blur(10px);
+     background: rgba(255, 255, 255, 0);
+     backdrop-filter: blur(1px);
      padding: 2rem;
      border-radius: 20px;
-     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
      width: 300px;
  }
  
+.portfolio-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
 .portfolio-card h1 {
      margin: 0;
      font-size: 2rem;
@@ -95,4 +100,3 @@ body {
           text-shadow: 0 0 5px #ffffff;
      }
 }
- 
