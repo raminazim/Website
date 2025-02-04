@@ -15,4 +15,3 @@ const messages = [
  }
  
  setInterval(updateMessage, 3000);
- 
